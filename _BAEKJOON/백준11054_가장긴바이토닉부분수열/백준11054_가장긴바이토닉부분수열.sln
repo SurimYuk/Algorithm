@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "백준11054_가장긴바이토닉부분수열", "백준11054_가장긴바이토닉부분수열\백준11054_가장긴바이토닉부분수열.vcxproj", "{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Debug|x64.ActiveCfg = Debug|x64
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Debug|x64.Build.0 = Debug|x64
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Debug|x86.Build.0 = Debug|Win32
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Release|x64.ActiveCfg = Release|x64
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Release|x64.Build.0 = Release|x64
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Release|x86.ActiveCfg = Release|Win32
+		{EE541F18-A73F-47AE-9C18-7A1E82C69DE3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6527B6D-7ED0-45C8-B00D-3D89E1D6E120}
+	EndGlobalSection
+EndGlobal
