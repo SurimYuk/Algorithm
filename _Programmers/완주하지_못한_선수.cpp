@@ -20,3 +20,27 @@ string solution(vector<string> participant, vector<string> completion) {
     }
     return participant[participant.size()-1];
 }
+
+/*
+#include <string>
+#include <vector>
+#include <unordered_map>
+
+using namespace std;
+
+unordered_map<string, int> m;
+
+string solution(vector<string> participant, vector<string> completion) {
+    for(auto elem:completion){
+        if(m.find(elem)==m.end()) m.insert({elem, 1});
+        else m[elem]++;
+    }
+    for(auto elem:participant){
+        if(m.find(elem)==m.end()) return elem;
+        else{
+            m[elem]--;
+            if(m[elem]<0) return elem;
+        }
+    }
+}
+*/
